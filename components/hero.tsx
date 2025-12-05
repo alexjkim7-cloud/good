@@ -39,7 +39,7 @@ export function Hero() {
     greeting: "안녕하세요,",
     name: "김원준",
     title: "단국대 학생입니다",
-    description: "프롭테크 기술로 부동산 시장을 분석합니다.",
+    description: "수정되게해주세요 제발",
     profileImage: "",
     backgroundImage: "",
     backgroundVideo: "",

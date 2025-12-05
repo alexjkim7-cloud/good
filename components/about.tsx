@@ -102,7 +102,7 @@ export function About() {
     experienceCards: [{"icon":"graduation","title":"단국대학교","period":"2020 - 2025","description":"부동산학과 주전공"},{"icon":"graduation","title":"단국대학교","period":"2024-2026","description":"경영학과 부전공"},{"icon":"book","title":"URID 14-1 우수회원","period":"2025","description":"운전병 무사고 만기전역"}],
     skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
     storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
+    story: ["저는 부동산 PM이 되고 싶습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
     storyImage: "",
     hobbies: ["🎨 전시회 관람","✈️ 여행","📸 사진","🎬 영화 감상"]
   }
