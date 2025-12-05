@@ -40,12 +40,12 @@ export function Hero() {
     name: "김원준",
     title: "단국대 학생입니다",
     description: "프롭테크 기술로 부동산 시장을 분석합니다.",
-    profileImage: "/uploads/hero-profile-1763974524222.jpg",
+    profileImage: "",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
     projectButton: "프로젝트 보기",
-    background: {"image":"","video":"","color":"","opacity":0.1}
+    background: {"image":"/uploads/hero-background-1764943267826.jpg","video":"","color":"","opacity":0.5}
   }
 
   const [backgroundData, setBackgroundData] = useState<{ image: string; video: string; color: string; opacity: number } | null>(null)
