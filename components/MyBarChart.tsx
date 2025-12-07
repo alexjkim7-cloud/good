@@ -19,7 +19,11 @@ import {
 
 // 2. 그래프에 표시할 데이터 배열을 정의합니다.
 const data = [
-    { name: 'JavaScript', 점수: 80, 포트폴리오기여도: 60 },
+ { name: '책임감', 점수: 95 },
+    { name: '회복 탄력성', 점수: 90 },
+    { name: '주도성', 점수: 85 },
+    { name: '협력 정신', 점수: 80, }
+    { name: '학습 민첩성', 점수: 75, },
     // ... 기타 데이터
 ];
 
@@ -32,11 +36,10 @@ const MyBarChart = () => {
             >
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
-                <YAxis />
+                <YAxis domain={[0, 100]} />
                 <Tooltip />
                 <Legend />
-                <Bar dataKey="점수" fill="#8884d8" />
-                <Bar dataKey="포트폴리오기여도" fill="#82ca9d" />
+                <Bar dataKey="점수" fill="#8884d8" name="김원준 강점 점수" />
             </BarChart>
         </ResponsiveContainer>
     );
