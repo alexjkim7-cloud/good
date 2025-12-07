@@ -51,11 +51,12 @@ export function Hero() {
     name: "김원준",
     title: "대기만성형 인재입니다.",
     description: "확실한 책임감을 기반으로 성장합니다.",
-    profileImage: "",
+    profileImage: "/uploads/hero-profile-1765135952945.jpg",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
-    projectButton: "프로젝트 보기"
+    projectButton: "프로젝트 보기",
+    background: {"image":"","video":"","color":"","opacity":0.1}
   }
 
   const [backgroundData, setBackgroundData] = useState<{ image: string; video: string; color: string; opacity: number } | null>(null)
