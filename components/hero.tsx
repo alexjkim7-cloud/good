@@ -8,7 +8,18 @@ import { EditableText } from "@/components/editable/editable-text"
 import { EditableMedia } from "@/components/editable/editable-media"
 import { EditableBackground } from "@/components/editable/editable-background"
 import { useInlineEditor } from "@/contexts/inline-editor-context"
+// components/hero.tsx (Import 문 바로 아래)
 
+// 소셜 링크 객체의 타입을 명시적으로 정의합니다.
+// addSocialLink 함수에서 사용하는 'name' 속성을 포함시킵니다.
+type SocialLink = {
+    name: string;
+    icon: string;
+    url: string;
+}
+
+// 기존의 Social Links를 관리하는 useState 또는 defaultSocialLinks에
+// 이 SocialLink[] 타입을 명시적으로 사용해야 합니다.
 // 사용 가능한 아이콘 정의
 const AVAILABLE_ICONS = {
   instagram: Instagram,
@@ -33,7 +44,7 @@ export function Hero() {
   const { getData, saveData, isEditMode, saveToFile, saveFieldToFile } = useInlineEditor()
   
   // 초기 데이터 - 배열 형태로 변경
-  const defaultSocialLinks: { url: string; icon: string }[] = []
+  const defaultSocialLinks: SocialLink[] = []
   
   const defaultInfo = {
     greeting: "안녕하세요,",
