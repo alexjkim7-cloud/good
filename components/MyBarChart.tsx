@@ -1,5 +1,5 @@
-// JavaScript source code
-// MyBarChart.tsx ÆÄÀÏ ³»¿ë
+ï»¿// JavaScript source code
+// MyBarChart.tsx íŒŒì¼ ë‚´ìš©
 
 "use client";
 
@@ -15,12 +15,12 @@ import {
     Legend,
     ResponsiveContainer,
 } from 'recharts';
-// MyBarChart.tsx ÆÄÀÏ (Import ¹® ¾Æ·¡¿¡ Ãß°¡)
+// MyBarChart.tsx íŒŒì¼ (Import ë¬¸ ì•„ëž˜ì— ì¶”ê°€)
 
-// 2. ±×·¡ÇÁ¿¡ Ç¥½ÃÇÒ µ¥ÀÌÅÍ ¹è¿­À» Á¤ÀÇÇÕ´Ï´Ù.
+// 2. ê·¸ëž˜í”„ì— í‘œì‹œí•  ë°ì´í„° ë°°ì—´ì„ ì •ì˜í•©ë‹ˆë‹¤.
 const data = [
-    { name: 'JavaScript', Á¡¼ö: 80, Æ÷Æ®Æú¸®¿À±â¿©µµ: 60 },
-    // ... ±âÅ¸ µ¥ÀÌÅÍ
+    { name: 'JavaScript', ì ìˆ˜: 80, í¬íŠ¸í´ë¦¬ì˜¤ê¸°ì—¬ë„: 60 },
+    // ... ê¸°íƒ€ ë°ì´í„°
 ];
 
 const MyBarChart = () => {
@@ -35,8 +35,8 @@ const MyBarChart = () => {
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Bar dataKey="Á¡¼ö" fill="#8884d8" />
-                <Bar dataKey="Æ÷Æ®Æú¸®¿À±â¿©µµ" fill="#82ca9d" />
+                <Bar dataKey="ì ìˆ˜" fill="#8884d8" />
+                <Bar dataKey="í¬íŠ¸í´ë¦¬ì˜¤ê¸°ì—¬ë„" fill="#82ca9d" />
             </BarChart>
         </ResponsiveContainer>
     );
