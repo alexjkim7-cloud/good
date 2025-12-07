@@ -34,12 +34,12 @@ export function Contact() {
   
   // 기본 데이터
   const defaultInfo = {
-    name: "당신의 이름",
+    name: "김원준",
     title: "직책/직무",
     company: "",
-    experience: "3년 경력",
-    phone: "010-0000-0000",
-    email: "your-email@example.com",
+    experience: "신입",
+    phone: "010-9444-6181",
+    email: "alexjkim929@naver.com",
     website: "",
     location: "당신의 위치",
     workTime: "평일 09:00 - 18:00",

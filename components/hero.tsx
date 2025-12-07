@@ -39,7 +39,7 @@ export function Hero() {
     greeting: "안녕하세요,",
     name: "김원준",
     title: "대기만성형 인재입니다.",
-    description: "수정되게해주세요 제발",
+    description: "확실한 책임감을 기반으로 성장합니다.",
     profileImage: "",
     backgroundImage: "",
     backgroundVideo: "",

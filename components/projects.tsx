@@ -18,7 +18,7 @@ export function Projects() {
     initialDisplay: 6,
     loadMoreCount: 3,
     background: {"image":"","video":"","color":"","opacity":0.1},
-    projects: [{"image":"/uploads/project-0-1765104743536.jpg","video":"","title":"HSBC 빌딩 모의 IM","description":"URID 실물 IM 대회 우수상 수상"}] as Array<{ image: string; video?: string; title: string; description: string }>
+    projects: [{"image":"/uploads/project-0-1765104743536.jpg","video":"","title":"HSBC 빌딩 모의 IM","description":"URID 실물 IM 대회 우수상 수상"},{"image":"/uploads/project-1765116792990-1765116794598.png","video":"","title":"교내 프로젝트: 사업계획서","description":"교내 프로젝트로 사업 계획서 작성 경험으로 경영 전반을 이해"},{"image":"/uploads/project-2-1765117903727.png","video":"","title":"경기 청년 갭이어","description":"전세사기 예방 어플리케이션- OCR 및 머신러닝을 통한 데이터 기반 프로젝트로 참여"}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)

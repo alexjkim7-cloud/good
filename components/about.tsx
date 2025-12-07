@@ -99,10 +99,10 @@ export function About() {
     title: "소개",
     subtitle: "당신의 전문성과 열정을 소개해주세요.",
     background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"graduation","title":"단국대학교","period":"2020 - 2025","description":"부동산학과 / 경영학과 전공"},{"icon":"graduation","title":"URID 14기","period":"2024-2026","description":"실물 IM 대회 우수상 / 우수 회원 수료"},{"icon":"book","title":"대한민국 공군","period":"2021-2023","description":"운전병 무사고 만기전역"}],
-    skills: [{"icon":"lineChart","title":"투자자산운용사","description":"자격증 보유"},{"icon":"sparkles","title":"공인중개사","description":"1차 합격"},{"icon":"users","title":"팀워크","description":"팀 프로젝트 내 발표, 재무타당성 분석, PPT 총괄 담당 경험"},{"icon":"barChart","title":"빅데이터 분석실무","description":"2급 자격증 보유"},{"icon":"star","title":"새 스킬","description":"스킬 설명"}],
+    experienceCards: [{"icon":"graduation","title":"단국대학교","period":"2020 -","description":"부동산학과 / 경영학과 전공"},{"icon":"graduation","title":"URID 14기","period":"2024-2026","description":"실물 IM 대회 우수상 / 우수 회원 수료"},{"icon":"book","title":"대한민국 공군","period":"2021-2023","description":"운전병 무사고 만기전역"},{"icon":"briefcase","title":"더원씽 독학재수학원","period":"2023-2025","description":"엑셀 자동화로 경영 효율화, 부대 비용 관리 및 공석 관리 경험"}],
+    skills: [{"icon":"lineChart","title":"투자자산운용사","description":"자격증 보유"},{"icon":"sparkles","title":"공인중개사","description":"1차 합격"},{"icon":"pieChart","title":"엑셀","description":"VLOOUP, IFERROR 등의 기본 함수부터 다양한 재무함수 응용 가능"},{"icon":"barChart","title":"빅데이터 분석실무","description":"2급 자격증 보유"}],
     storyTitle: "나의 이야기",
-    story: ["저는 부동산 PM이 되고 싶습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
+    story: ["저는 부동산 PM이 되고 싶습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","저만의 속도와 방향으로  꾸준히, 가속도를 얻어 나아가겠습니다."],
     storyImage: "",
     hobbies: ["🎨 전시회 관람","✈️ 여행","📸 사진","🎬 영화 감상"]
   }
