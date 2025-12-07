@@ -38,7 +38,7 @@ export function Hero() {
   const defaultInfo = {
     greeting: "안녕하세요,",
     name: "김원준",
-    title: "단국대 학생입니다",
+    title: "대기만성형 인재입니다.",
     description: "수정되게해주세요 제발",
     profileImage: "",
     backgroundImage: "",
