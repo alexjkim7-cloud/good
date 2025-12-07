@@ -183,7 +183,7 @@ export function Hero() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* 왼쪽: 텍스트 내용 */}
-            <div className="order-2 md:order-1">
+            <div className="order-1 md:order-2">
               <h2 className="text-3xl font-bold mb-2">
                 <EditableText
                   value={heroInfo.greeting}
@@ -256,9 +256,9 @@ export function Hero() {
             </div>
 
             {/* 오른쪽: 프로필 이미지 */}
-            <div className="order-1 md:order-2 flex justify-center">
+            <div className="order-2 md:order-1 flex justify-center">
               <div className="relative">
-                <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-muted overflow-hidden shadow-2xl">
+                <div className="w-64 h-64 md:w-80 md:h-80 rounded-lg bg-muted overflow-hidden shadow-2xl">
                   <EditableMedia
                     src={heroInfo.profileImage}
                     onChange={(src) => updateHeroInfo('profileImage', src)}
