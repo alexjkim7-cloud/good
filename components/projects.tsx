@@ -18,7 +18,7 @@ export function Projects() {
     initialDisplay: 6,
     loadMoreCount: 3,
     background: {"image":"","video":"","color":"","opacity":0.1},
-    projects: [{"image":"https://drive.google.com/file/d/1yzmMYvSzkhdOJ7naa4wvD2-K0I5vO7HO/view?usp=drive_link","video":"","title":"HSBC 빌딩 모의 IM","description":"URID 실물 IM 대회 우수상 수상"}] as Array<{ image: string; video?: string; title: string; description: string }>
+    projects: [{"image":"/uploads/project-0-1765104743536.jpg","video":"","title":"HSBC 빌딩 모의 IM","description":"URID 실물 IM 대회 우수상 수상"}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)
