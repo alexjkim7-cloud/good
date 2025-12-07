@@ -269,7 +269,7 @@ export function Hero() {
                     purpose="hero-profile"
                   />
                 </div>
-                <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 to-transparent pointer-events-none" />
+                <div className="absolute inset-0 rounded-lg bg-gradient-to-tr from-primary/20 to-transparent pointer-events-none" />
               </div>
             </div>
           </div>
