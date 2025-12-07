@@ -18,7 +18,7 @@ export function Projects() {
     initialDisplay: 6,
     loadMoreCount: 3,
     background: {"image":"","video":"","color":"","opacity":0.1},
-    projects: [{"image":"https://drive.google.com/file/d/1yzmMYvSzkhdOJ7naa4wvD2-K0I5vO7HO/view?usp=drive_link","video":"","title":"HSBC 빌딩 모의 IM","description":"URID 실물 IM 대회 우수상 수상"},{"image":"/uploads/project-1765084101264-1765084101618.png","video":"","title":"부동산 경매 투자물건 보고서","description":"우수사례 선정"}] as Array<{ image: string; video?: string; title: string; description: string }>
+    projects: [{"image":"https://drive.google.com/file/d/1yzmMYvSzkhdOJ7naa4wvD2-K0I5vO7HO/view?usp=drive_link","video":"","title":"HSBC 빌딩 모의 IM","description":"URID 실물 IM 대회 우수상 수상"}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)
