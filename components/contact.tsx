@@ -35,7 +35,7 @@ export function Contact() {
   // 기본 데이터
   const defaultInfo = {
     name: "김원준",
-    title: "직책/직무",
+    title: "사원",
     company: "",
     experience: "신입",
     phone: "010-9444-6181",
@@ -48,15 +48,21 @@ export function Contact() {
     sectionSubtitle: "010-9444-6181",
     qrTitle: "QR 코드로 연락처 저장",
     qrSubtitle: "스캔하면 연락처가 자동으로 저장됩니다",
-    bottomMessage: "함께 성장하는 파트너가 되겠습니다.",
-    bottomSubMessage: "고객님의 성공적인 프로젝트를 위해 최선을 다하겠습니다.",
+    bottomMessage: "계속해서 성장하며 대체 불가능한 인력으로 거듭나겠습니다.",
+    bottomSubMessage: "화이팅!!",
     qrContent: ["name","phone","email","location","website"],
     profileEmoji: "👤",
     background: {"image":"","video":"","color":"","opacity":0.1}
   }
   
   // 소셜 링크 기본값 (배열 형태로 변경)
-  const defaultSocialLinks: { name: string; icon: string; url: string }[] = []
+  const defaultSocialLinks: { name: string; icon: string; url: string }[] = [
+    {
+      "name": "새 링크",
+      "icon": "instagram",
+      "url": "https://www.instagram.com/one_given7/"
+    }
+  ]
   
   const [contactInfo, setContactInfo] = useState(defaultInfo)
   const [socialLinks, setSocialLinks] = useState(defaultSocialLinks)

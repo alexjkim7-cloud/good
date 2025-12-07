@@ -99,11 +99,11 @@ export function About() {
     title: "지금까지 저는",
     subtitle: "이런 일들을 해보았습니다",
     background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"graduation","title":"단국대학교","period":"2020 -","description":"부동산학과 / 경영학과 전공"},{"icon":"graduation","title":"URID 14기","period":"2024-2026","description":"우수 회원 수료 (기수 내 3명)"},{"icon":"book","title":"대한민국 공군","period":"2021-2023","description":"[방공포 차량 운전병] 무사고 만기전역"},{"icon":"briefcase","title":"더원씽 독학재수학원","period":"2023-2025","description":"[총괄 관리] 엑셀 자동화로 경영 효율화, 부대 비용 관리 및 공석 관리 경험"},{"icon":"briefcase","title":"생각하는방법 학원","period":"2020-2024 (군기간 제외)","description":"[영어 보조 강사] 중,고등학생 영어 학습법 및 관리지도"},{"icon":"calendar","title":"TAMS 14기","period":"2024","description":"참여"}],
+    experienceCards: [{"icon":"graduation","title":"단국대학교","period":"2020 -","description":"부동산학과 / 경영학과 전공"},{"icon":"graduation","title":"URID 14기","period":"2024-2026","description":"우수 회원 수료 (기수 내 3명)"},{"icon":"book","title":"대한민국 공군","period":"2021-2023","description":"[방공포 차량 운전병] 무사고 만기전역"},{"icon":"briefcase","title":"더원씽 독학재수학원","period":"2023-2025","description":"[총괄 관리] 엑셀 자동화로 경영 효율화, 부대 비용 관리 및 공석 관리 경험"},{"icon":"briefcase","title":"생각하는방법 학원","period":"2020-2024 (군기간 제외)","description":"[영어 보조 강사] 중,고등학생 영어 학습법 및 관리지도"},{"icon":"calendar","title":"TAMS 14기","period":"2024","description":"미래에셋 금융그룹 주최 TAMS 14기 참여"}],
     skills: [{"icon":"lineChart","title":"투자자산운용사","description":"자격증 보유"},{"icon":"sparkles","title":"공인중개사","description":"1차 합격"},{"icon":"pieChart","title":"엑셀","description":"VLOOUP, IFERROR 등의 기본 함수부터 다양한 재무함수 응용 가능"},{"icon":"barChart","title":"빅데이터 분석실무","description":"2급 자격증 보유"}],
     storyTitle: "나의 이야기",
-    story: ["저는 부동산 PM이 되고 싶습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","저만의 속도와 방향으로  꾸준히, 가속도를 얻어 나아가겠습니다."],
-    storyImage: "",
+    story: ["저를 정의하는 핵심 키워드는 ‘우상향하는 성장’과 ‘무너지지 않는 긍정’입니다. 저는 난관을 마주할수록 더 강인해지는 회복탄력성을 지녔으며, 이는 실무 프로젝트에서 압도적인 성과를 내는 원동력이 됩니다. 특히 교내 학회 주최 실물 IM 프로젝트 당시, 저는 팀장으로서 투자의 핵심인 타당성 검토와 민감도 분석을 전담하여 논리적 근거를 견고히 다졌습니다.","나아가 이를 가장 효과적으로 전달하기 위해 PPT 디자인 총괄과 최종 프레젠테이션 발표까지 도맡아 진행했습니다. 복잡한 수치 해석과 직관적인 시각화 경험으로 이러한 올라운더 역량은 부동산 자산의 본질적 가치를 극대화하는 PM(Property Management) 직무에 대한 확신, 세부적으로는 리테일 및 오피스 자산 운용으로 이어졌습니다.","저는 총장기적 목표로는 단순히 건물을 유지·보수하는 관리자를 넘어, 시장 데이터를 기반으로 최적의 운영 전략을 수립하고 임대 수익을 극대화하는 ‘적극적인 자산 운영가’가 되고자 합니다. PM 직무를 통해 현장에서 체득할 실무 노하우와 공간 운영 감각은 훗날 제가 직접 건물을 소유하고 경영하는 데 있어 강력한 토대가 될 것입니다. 저의 궁극적인 비전은 도심 속에 방치되거나 저평가된 낡은 건축물을 발굴하여, 혁신적인 리모델링과 차별화된 콘텐츠를 통해 지역의 랜드마크로 재탄생시키는 것입니다. 죽어가는 공간에 생명력을 불어넣어 경제적 가치를 창출함은 물론, 도시 미관을 아름답게 개선하고 지역 사회에 긍정적인 파급력을 미치는 공간 비즈니스의 리더가 되어 제 이름을 건 성공 사례를 남기겠습니다."],
+    storyImage: "/uploads/about-image-1765138629210.jpg",
     hobbies: ["🎨 전시회 관람","✈️ 여행","📸 사진","🎬 영화 감상"]
   }
   
