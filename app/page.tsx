@@ -1,4 +1,4 @@
-import { Header } from "@/components/header"
+ï»¿import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
 import { About } from "@/components/about"
 import { Projects } from "@/components/projects"
@@ -12,9 +12,9 @@ export default function Home() {
       <Header />
       <Hero />
           <About />
-          {/*  ±×·¡ÇÁ¸¦ º¸¿©ÁÙ À§Ä¡: ¿¹¸¦ µé¾î About ¼½¼Ç µÚ¿¡ Ãß°¡ÇÕ´Ï´Ù. */}
+          {/*  ê·¸ë˜í”„ë¥¼ ë³´ì—¬ì¤„ ìœ„ì¹˜: ì˜ˆë¥¼ ë“¤ì–´ About ì„¹ì…˜ ë’¤ì— ì¶”ê°€í•©ë‹ˆë‹¤. */}
           <div style={{ padding: '40px', maxWidth: '1000px', margin: '0 auto' }}>
-              <h2> ±â¼ú ½ºÅÃ ¼÷·Ãµµ</h2>
+              <h2> ê¸°ìˆ  ìŠ¤íƒ ìˆ™ë ¨ë„</h2>
               <div style={{ height: '400px', width: '100%' }}>
                   <MyBarChart />
               </div>
