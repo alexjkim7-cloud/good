@@ -96,10 +96,10 @@ export function About() {
   const { getData, saveData, isEditMode, saveToFile } = useInlineEditor()
   // 기본 데이터
   const defaultInfo = {
-    title: "소개",
-    subtitle: "당신의 전문성과 열정을 소개해주세요.",
+    title: "지금까지 저는",
+    subtitle: "이런 일들을 해보았습니다",
     background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"graduation","title":"단국대학교","period":"2020 -","description":"부동산학과 / 경영학과 전공"},{"icon":"graduation","title":"URID 14기","period":"2024-2026","description":"실물 IM 대회 우수상 / 우수 회원 수료"},{"icon":"book","title":"대한민국 공군","period":"2021-2023","description":"운전병 무사고 만기전역"},{"icon":"briefcase","title":"더원씽 독학재수학원","period":"2023-2025","description":"엑셀 자동화로 경영 효율화, 부대 비용 관리 및 공석 관리 경험"}],
+    experienceCards: [{"icon":"graduation","title":"단국대학교","period":"2020 -","description":"부동산학과 / 경영학과 전공"},{"icon":"graduation","title":"URID 14기","period":"2024-2026","description":"우수 회원 수료 (기수 내 3명)"},{"icon":"book","title":"대한민국 공군","period":"2021-2023","description":"[방공포 차량 운전병] 무사고 만기전역"},{"icon":"briefcase","title":"더원씽 독학재수학원","period":"2023-2025","description":"[총괄 관리] 엑셀 자동화로 경영 효율화, 부대 비용 관리 및 공석 관리 경험"},{"icon":"briefcase","title":"생각하는방법 학원","period":"2020-2024 (군기간 제외)","description":"[영어 보조 강사] 중,고등학생 영어 학습법 및 관리지도"},{"icon":"calendar","title":"TAMS 14기","period":"2024","description":"참여"}],
     skills: [{"icon":"lineChart","title":"투자자산운용사","description":"자격증 보유"},{"icon":"sparkles","title":"공인중개사","description":"1차 합격"},{"icon":"pieChart","title":"엑셀","description":"VLOOUP, IFERROR 등의 기본 함수부터 다양한 재무함수 응용 가능"},{"icon":"barChart","title":"빅데이터 분석실무","description":"2급 자격증 보유"}],
     storyTitle: "나의 이야기",
     story: ["저는 부동산 PM이 되고 싶습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","저만의 속도와 방향으로  꾸준히, 가속도를 얻어 나아가겠습니다."],
