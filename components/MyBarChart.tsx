@@ -43,7 +43,15 @@ const MyBarChart = () => {
                 {/* X축: 'attribute' 키를 사용하여 '김원준 강점 점수' 라벨을 표시합니다. */}
                 <XAxis dataKey="attribute" />
                 {/* Y축: 100점 만점 기준으로 설정합니다. */}
-                <YAxis domain={[0, 100]} />
+                <YAxis
+                    domain={[0, 100]}
+                    label={{
+                        value: '점수', // 표시할 텍스트
+                        angle: -90,      // 텍스트를 세로로 회전
+                        position: 'insideLeft', // Y축 왼쪽에 배치
+                        style: { textAnchor: 'middle', fill: '#333' } // 스타일 지정
+                    }}
+                />
                 <Tooltip />
                 <Legend wrapperStyle={{ color: '#000' }} />
 
