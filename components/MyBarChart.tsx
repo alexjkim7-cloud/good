@@ -45,7 +45,7 @@ const MyBarChart = () => {
                 {/* Y축: 100점 만점 기준으로 설정합니다. */}
                 <YAxis domain={[0, 100]} />
                 <Tooltip />
-                <Legend />
+                <Legend wrapperStyle={{ color: '#000' }} />
 
                 {/* 각 항목별로 Bar를 정의하고 고유 색상을 지정합니다. */}
                 <Bar dataKey="책임감" fill="#003366" name="책임감 (95점)" />
