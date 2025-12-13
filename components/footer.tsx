@@ -24,7 +24,7 @@ export function Footer() {
   const defaultInfo = {
     showFooter: true,
     name: "김원준",
-    description: "당신을 소개하는 짧은 문구를 작성해주세요. ",
+    description: "언제든지 연락주세요! 열과 성을 다하겠습니다.",
     showQuickLinks: true,
     quickLinksTitle: "빠른 링크",
     showContactInfo: true,

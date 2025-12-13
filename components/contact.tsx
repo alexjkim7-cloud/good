@@ -48,8 +48,8 @@ export function Contact() {
     sectionSubtitle: "010-9444-6181",
     qrTitle: "QR 코드로 연락처 저장",
     qrSubtitle: "스캔하면 연락처가 자동으로 저장됩니다",
-    bottomMessage: "계속해서 성장하며 대체 불가능한 인력으로 거듭나겠습니다.",
-    bottomSubMessage: "화이팅!!",
+    bottomMessage: "\"성공은 최종적인 것이 아니며, 실패는 치명적인 것이 아니다. 중요한 것은 계속하려는 용기이다.\" - 윈스턴 처칠 (Winston Churchill)",
+    bottomSubMessage: "계속해서 성장하며 대체 불가능한 인력으로 거듭나겠습니다.",
     qrContent: ["name","phone","email","location","website"],
     profileEmoji: "👤",
     background: {"image":"","video":"","color":"","opacity":0.1}
