@@ -3,7 +3,7 @@
 
 "use client";
 
-import { Pie, PieChart } from 'recharts';
+import { Pie, PieChart, ResponsiveContainer } from 'recharts';
 
 // #region Sample data
 const data01 = [
