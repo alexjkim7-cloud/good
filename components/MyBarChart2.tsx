@@ -27,7 +27,7 @@ const CustomTick = (props: any) => {
     const adjustedY = y + radiusOffset * Math.sin((angle * Math.PI) / 180);
 
     // 텍스트 앵커(정렬) 설정
-    let textAnchor = 'middle';
+    let textAnchor: "start" | "middle" | "end" | "inherit" | undefined = 'middle';
     if (angle > -10 && angle < 10) { // 우측 (의사소통)
         textAnchor = 'start';
     } else if (angle > 170 || angle < -170) { // 좌측 (협력/혁신)
